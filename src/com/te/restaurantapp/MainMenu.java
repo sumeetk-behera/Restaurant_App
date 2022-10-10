@@ -9,7 +9,6 @@ public class MainMenu {
 
 	static void getFood() {
 
-		
 		System.out.println("----WELCOME TO TECHNO BIRYANI---- \n");
 
 		String[] menu = { "", "1-Chicken Biryani-Rs 199/-", "2-Mutton Biryani-Rs 299/-", "3-Paneer Biryani-Rs 149/-",
@@ -34,8 +33,8 @@ public class MainMenu {
 				bill = bill + pr[item];
 				ord[i] = menu[item];
 				price[i] = pr[item];
-
 			}
+
 			for (int i = 0; i < ord.length; i++) {
 				System.out.println(ord[i] + "-->added to cart\n");
 			}
